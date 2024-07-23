@@ -4,7 +4,7 @@ import ButtonLink from "../components/buttonLink";
 
 export default function Profile() {
     return (
-        <div className="flex flex-col md:justify-center gap-10 p-5">
+        <div className="flex flex-col lg:justify-center gap-10 p-5">
             <div className="flex flex-col gap-5 mx-auto text-center ">
                 <h1 className="font-bold text-lg md:text-5xl">PROFILE</h1>
                 <p className="text-lg md:text-3xl">I&apos;m <span className="text-orange-400 font-extrabold">
@@ -23,7 +23,7 @@ export default function Profile() {
                     <img className="bg-white rounded-full shadow-2xl h-[360px] w-[360px] object-cover " src={ProfileIMG} alt="Place Holder" />
                 </div>
                 
-                <div className="flex flex-col gap-3 border h-full bg-white rounded-2xl shadow-2xl p-5">
+                <div className="flex flex-col gap-3 border h-full md:h-[400px] bg-white rounded-2xl shadow-2xl p-5">
                     <strong className="border-b-2 border-black">Details</strong>
                     <div className="border-b-2 border-dashed border-silver">
                         <h4 className="font-semibold text-lg">Name :</h4>

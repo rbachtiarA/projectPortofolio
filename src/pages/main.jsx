@@ -18,7 +18,7 @@ export default function Mainpage() {
                     <ButtonNav btnData={data}/>
                 </div>
             </div>
-            <div className="md:bg-beach bg-contain flex my-auto md:rounded-full md:border-8 md:min-w-[600px] md:border-orange-500">
+            <div className="md:beach-bg bg-contain flex my-auto md:rounded-full md:border-8 md:min-w-[600px] md:border-orange-500">
                 <img className="rounded-full" src={mainpagesIMG} alt="photo nick" />
             </div>
 
